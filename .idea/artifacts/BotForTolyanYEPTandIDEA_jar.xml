@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BotForTolyanYEPTandIDEA:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BotForTolyanYEPTandIDEA_jar</output-path>
+    <root id="archive" name="BotForTolyanYEPTandIDEA.jar">
+      <element id="module-output" name="BotForTolyanYEPTandIDEA" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/telegrambots-2.4.3-jar-with-dependencies.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-simple-1.1.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

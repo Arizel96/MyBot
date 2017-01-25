@@ -28,7 +28,7 @@ public class Main {
         MyBot.mapRus = new HashMap<>();
         for (int i = 0; i < list.size(); i++) {
             ArrayList<String> underList = list.get(i);
-            String key = underList.get(underList.size() - 1).toUpperCase();
+            String key = underList.get(underList.size() - 1);
             MyBot.mapRus.put(key, underList);
         }
     }
@@ -47,8 +47,7 @@ public class Main {
         MyBot.others.add("hkd");
 
         ArrayList<String> listForMap = new ArrayList<>();
-        listForMap.add("доллар");
-        listForMap.add("долар");
+        listForMap.add("дол");
         listForMap.add("сша");
         listForMap.add("dolar");
         listForMap.add("dollar");

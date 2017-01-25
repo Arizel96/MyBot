@@ -127,11 +127,6 @@ public class MyBot extends TelegramLongPollingBot {
             currencyRub = ERROR;
             currencyUsd = ERROR;
         }
-//        catch (IndexOutOfBoundsException e) {
-//            currencyEuro = ERROR;
-//            currencyRub = ERROR;
-//            currencyUsd = ERROR;
-//        }
 
     }
 
